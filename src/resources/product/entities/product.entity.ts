@@ -1,3 +1,5 @@
+import { Category } from "src/resources/category/entities/category.entity"
+
 export class Product {
     id: number
     name: string
@@ -6,4 +8,5 @@ export class Product {
     description: string
     createdAt: Date
     updatedAt: Date
+    category?: Category
 }
